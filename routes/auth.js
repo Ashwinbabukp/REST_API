@@ -1,6 +1,9 @@
 const router = require("express").Router();
 
-router.get("/",(req,res) =>{
+
+//REGISTER
+
+router.post("/register",(req,res) =>{
     res.send("hey it's auth route");
 })
 
